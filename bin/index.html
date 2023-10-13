@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="styles.css">
+        <title>Spaceship Shooter Extravaganza</title>
+    </head>
+        <script src="../src/lib/pixi.min.js"></script>
+        <script src="../src/model/Spaceship.js"></script>
+        <script src="../src/model/Player.js"></script>
+        <script src="../src/model/Enemy.js"></script>
+        <script src="../src/model/Projectile.js"></script>
+        <script src="../src/model/PlayerProjectile.js"></script>
+        <script src="../src/model/EnemyProjectile.js"></script>
+        <script src="../src/model/ExplosionParticle.js"></script>
+        <script src="../src/handler/ProjectileHandler.js"></script>
+        <script src="../src/handler/BackgroundHandler.js"></script>
+        <script src="../src/handler/EnemyHandler.js"></script>
+        <script src="../src/handler/CollisionHandler.js"></script>
+        <script src="../src/handler/Util.js"></script>
+        <script src="../src/main.js"></script>
+    <body>
+        <div id="splash-screen" class="overlay">
+            <h1>Spaceship Shooter Extravaganza</h1>
+        </div>
+        <div id="main-screen" class="menu-overlay">
+            <div class="wrapper">
+                <img src="assets/logo.png" alt="">
+                <div class="menu-option"><p>GAME 1</p></div>
+                <div class="menu-option"><p>GAME 2</p></div>
+                <div class="menu-option"><p>GAME 3</p></div>
+                <div id="exit"><p>EXIT</p></div>
+            </div>
+        </div>
+        <div id="goodbye-screen" class="goodbye-overlay">
+            <h1>Goodbye!</h1>
+        </div>
+        <script type="text/javascript" src="../src/init.js">
+        </script>
+    </body>
+</html>
